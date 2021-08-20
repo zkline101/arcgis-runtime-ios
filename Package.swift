@@ -38,8 +38,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ArcGIS",
-            url: "https://www.dropbox.com/s/zy01fsxq3q4trp8/ArcGIS-iOS-v100.11.2.xcframework.zip?dl=1",
-            checksum: "a4237ea93fc5635291f464a38f2e44b24b7f30d6e57746caf20b19b8c05bb90c"
+            url: "https://www.dropbox.com/s/4l129etug03jcrx/ArcGIS-iOS-v100.12.xcframework.zip?dl=1",
+            checksum: "15b34f66dec01f1203479a91600a0b81ecb6790ae18b3aa69c8de9f814f506ad"
         )
     ]
 )
