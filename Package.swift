@@ -32,14 +32,19 @@ let package = Package(
     products: [
         .library(
             name: "ArcGIS",
-            targets: ["ArcGIS"]
+            targets: ["ArcGIS", "Runtimecore"]
         )
     ],
     targets: [
         .binaryTarget(
             name: "ArcGIS",
-            url: "https://www.dropbox.com/s/zy01fsxq3q4trp8/ArcGIS-iOS-v100.11.2.xcframework.zip?dl=1",
-            checksum: "a4237ea93fc5635291f464a38f2e44b24b7f30d6e57746caf20b19b8c05bb90c"
+            url: "https://www.dropbox.com/s/h2awbdmdl5uetb6/ArcGIS-iOS-v100.13.xcframework.zip?dl=1",
+            checksum: "98231f876f18954fe5426750b2910002f6942a3d6d8fff862abcdff17525f2eb"
+        ),
+        .binaryTarget(
+            name: "Runtimecore",
+            url: "https://www.dropbox.com/s/jdych5ev8102t39/Runtimecore-v100.13.xcframework.zip?dl=1",
+            checksum: "3a1948f5ac8b2a4b6c57b02cd15e57bca468e534cd0ca490a4f29337a6eae968"
         )
     ]
 )
